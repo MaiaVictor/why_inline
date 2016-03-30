@@ -12,4 +12,4 @@ Those blocks display the classes I applied to them. Notice some of those aren't 
 
 --
 
-I could go full jQuery, turn `style.js` in a flat `style.css` file, and pass the fancy effects to DOM-manipulating functions. But now **that** would couple controllers with styles, would defeat the "pure" aspect of VirtualDOM (which is the whole point), and would decrease a lot code quality overall, IMO. So, please, evaluate if you this coding style is reasonable and let me know what you think.
+I could go full jQuery, turn `style.js` in a flat `style.css` file, and pass the fancy effects to DOM-manipulating functions. But now **that** would couple controllers with styles, would defeat the "pure" aspect of VirtualDOM (which is the whole point), and would decrease a lot code quality overall, IMO. So, please, evaluate if this coding style is reasonable and let me know what you think.
