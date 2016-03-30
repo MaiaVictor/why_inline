@@ -46,9 +46,6 @@ var circle = function(rad){
 // This class makes the element trippy! 
 // Regular CSS can't do that, nor can SASS!
 var trippy = (function(){
-    function rc(){ // random color
-        return Math.floor(Math.random()*255);
-    };
     return function(){
         var t = Date.now()/1000, sin = Math.sin;
         return {"background-color": pix.htmlString(pix.hsl(sin(t), sin(t*2.3), sin(t*1.4)))};
